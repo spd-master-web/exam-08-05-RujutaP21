@@ -1,0 +1,53 @@
+:root {
+  --ui-color: rgb(100, 149, 237);
+}
+
+.ui-body {
+  margin: 0;
+}
+
+.ui-wrapper {
+  min-height: 100vh;
+
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.ui-main {
+  flex-grow: 1;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ui-grid-container {
+  width: 500px;
+  height: 500px;
+}
+
+.ui-footer {
+  margin-top: auto;
+  padding: 50px;
+
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+
+  border-top: 1px solid var(--ui-color);
+}
+
+.ui-link {
+  margin: 0 .5em;
+  padding: .2em .25em;
+
+  color: var(--ui-color);
+
+  font-family: sans-serif;
+  font-size: 1.15em;
+  text-decoration: none;
+}
+
+.ui-link-selected {
+  background-color: rgb(252, 252, 187);
+}
