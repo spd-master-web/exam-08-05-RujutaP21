@@ -46,12 +46,11 @@ body{
 }
 
 
-
 h1{
   display: inline-block;
   position: absolute;
-  bottom: 100px ;
-  left: 300px;
+  bottom: 250px ;
+  left: 500px;
   margin: 0;
   font-size: 680%;
   color: #d0166d;
