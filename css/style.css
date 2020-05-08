@@ -1,7 +1,7 @@
 /* disable these when you're done */
-.ui-grid-container-one {
+/* .ui-grid-container-one {
   background-image: url('/images/grid-1.png');
-}
+} */
 .ui-grid-container-two {
   background-image: url('/images/grid-2.png');
 }
@@ -9,3 +9,17 @@
   background-image: url('/images/grid-3.png');
 }
 /* your CSS goes here */
+
+*{
+  box-sizing: border-box;
+}
+
+.ui-grid-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.fill{
+  background-color:  rgb(100, 149, 237);
+}
