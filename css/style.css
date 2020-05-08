@@ -5,13 +5,17 @@
 /* .ui-grid-container-two {
   background-image: url('/images/grid-2.png');
 } */
-.ui-grid-container-three {
+/* .ui-grid-container-three {
   background-image: url('/images/grid-3.png');
-}
+} */
 /* your CSS goes here */
 
 *{
   box-sizing: border-box;
+}
+
+body{
+  font-family: sans-serif;
 }
 
 .ui-grid-container{
@@ -21,11 +25,34 @@
 }
 
 .fill{
-  background-color:  rgb(100, 149, 237);
+  background-color: #6495ed;
 }
 
 .grid2-fill{
   grid-row: span 2;
   grid-column: span 4;
-  background-color: palevioletred;
+  background-color: #ed64a4;
+}
+
+.grid-item1{
+  grid-row: span 5;
+  grid-column: span 4;
+  background-color: #6495ed; 
+}
+
+.grid-item2{
+  grid-row: span 5;
+  background-color: #ed64a4; 
+}
+
+
+
+h1{
+  display: inline-block;
+  position: absolute;
+  bottom: 100px ;
+  left: 300px;
+  margin: 0;
+  font-size: 680%;
+  color: #d0166d;
 }
