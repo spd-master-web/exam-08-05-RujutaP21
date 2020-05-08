@@ -2,9 +2,9 @@
 /* .ui-grid-container-one {
   background-image: url('/images/grid-1.png');
 } */
-.ui-grid-container-two {
+/* .ui-grid-container-two {
   background-image: url('/images/grid-2.png');
-}
+} */
 .ui-grid-container-three {
   background-image: url('/images/grid-3.png');
 }
@@ -22,4 +22,10 @@
 
 .fill{
   background-color:  rgb(100, 149, 237);
+}
+
+.grid2-fill{
+  grid-row: span 2;
+  grid-column: span 4;
+  background-color: palevioletred;
 }
